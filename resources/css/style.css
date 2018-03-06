@@ -8,7 +8,7 @@
 }
 
 .sections {
-  display: flex;
+  flex-direction: row;
 }
 
 .nav {
@@ -16,5 +16,6 @@
 }
 
 .logo {
-  color: mediumAquamarine; 
+  text-decoration-color: MediumAquamarine;
+
 }
