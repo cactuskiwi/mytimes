@@ -1,17 +1,36 @@
-.header {
-  display: flex;
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+}
 
+nav {
+  display: inline-flex;
 
+}
+
+li {
+  display: inline-flex;
 }
 
 .sections {
-  flex-direction: row;
+  display: inline-flex;
 }
 
-.nav {
+.header {
+  display: flex;
+}
+
+}
+
+
+/*
+.sections {
+display: inline-flex;
+}
+
+nav li {
   display: inline-block;
 }
 
@@ -19,3 +38,4 @@
   text-decoration-color: MediumAquamarine;
 
 }
+*/
