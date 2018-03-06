@@ -1,8 +1,8 @@
-header {
+.header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
+
 }
 
 
@@ -18,4 +18,12 @@ li {
 
 nav {
   display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+
+
+}
+
+ul {
+  justify-content: flex-end;
 }
