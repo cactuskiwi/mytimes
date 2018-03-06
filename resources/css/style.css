@@ -2,7 +2,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
+  display: inline-flex;
 }
 
 
@@ -13,5 +13,9 @@ header {
 
 
 li {
+  display: inline-flex;
+}
+
+nav {
   display: inline-flex;
 }
