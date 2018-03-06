@@ -5,37 +5,13 @@ header {
   display: flex;
 }
 
-nav {
-  display: inline-flex;
 
+.logo {
+  color: mediumaquamarine;
 }
+
+
 
 li {
   display: inline-flex;
 }
-
-.sections {
-  display: inline-flex;
-}
-
-.header {
-  display: flex;
-}
-
-}
-
-
-/*
-.sections {
-display: inline-flex;
-}
-
-nav li {
-  display: inline-block;
-}
-
-.logo {
-  text-decoration-color: MediumAquamarine;
-
-}
-*/
