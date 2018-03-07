@@ -10,18 +10,22 @@ nav {
   display: inline-flex;
   width: 100%;
   justify-content: flex-end;
-  align-items: center;
   border-bottom:  1px solid;
-  min-height: 70px;
 }
 
 
-.logo {
+.logo li {
   color: mediumaquamarine;
-  width: 600px;
+  margin: 0px;
 
 }
 
+.logopic li {
+
+  margin: 0px;
+  padding-left: 0px;
+  flex-grow: 5;
+}
 
 li {
   display: inline-flex;
@@ -30,13 +34,19 @@ li {
 
 
 ul {
-  justify-content: flex-end;
+
+  padding-left: 0px;
+  width: 100%;
+  align-items: center;
 }
 
 #nowrap {
   flex-wrap: nowrap;
 }
 
+a {
+  color: black;
+}
 
 /* content */
 
