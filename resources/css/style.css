@@ -1,28 +1,9 @@
-.header {
+/* header */
+
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-
-
-
-
-}
-
-
-.logo {
-  color: mediumaquamarine;
-  width: 200px;
-  flex-shrink: 2;
-}
-
-.logo2 {
-  
-}
-
-li {
-  display: inline-flex;
-  margin: 10px;
-
 }
 
 nav {
@@ -31,10 +12,22 @@ nav {
   justify-content: flex-end;
   align-items: center;
   border-bottom:  1px solid;
-  min-height: 80px;
+  min-height: 70px;
+}
 
+
+.logo {
+  color: mediumaquamarine;
+  width: 600px;
 
 }
+
+
+li {
+  display: inline-flex;
+  margin: 10px;
+}
+
 
 ul {
   justify-content: flex-end;
@@ -42,4 +35,11 @@ ul {
 
 #nowrap {
   flex-wrap: nowrap;
+}
+
+
+/* content */
+
+.content {
+  display: flex;
 }
