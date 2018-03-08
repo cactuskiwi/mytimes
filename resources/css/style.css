@@ -40,9 +40,7 @@ ul {
   align-items: center;
 }
 
-#nowrap {
-  flex-wrap: nowrap;
-}
+
 
 a {
   color: black;
@@ -51,5 +49,27 @@ a {
 /* content */
 
 .content {
-  display: flex;
+  display: inline-flex;
+}
+
+
+.frames {
+  border: 2px solid;
+  display: inline-block;
+}
+
+.column.large {
+  width: 630px;
+}
+
+column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+footer {
+  border: 1px solid;
 }
